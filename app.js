@@ -325,26 +325,19 @@
 // var per1=obtMarks1/totalMarks*100
 // var per2=obtMarks2/totalMarks*100
 // var per3=obtMarks3/totalMarks*100
-// document.write("<table><tr><td>Subject</td><td>Total Marks</td><td>Obtained Marks</td><td>Percentage</td></tr></table><br>")
+// document.write("<table><tr><td>Subject</td><td>Total Marks</td><td>Obtained Marks</td><td>Percentage</td></tr><br>")
 
-// document.write(sub1 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + totalMarks  
-// + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + obtMarks1   
-// + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" 
-// + per1 + "<br>")
-
-// document.write(sub2 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + totalMarks  
-// + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + obtMarks2   
-// + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" 
-// + per2 + "<br>")
-
-// document.write(sub3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + totalMarks  
-// + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + obtMarks3   
-// + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" 
-// + per3 + "<br>")
-
-// document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-// +totalMarks*3 + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-// + ((+obtMarks1)+(+obtMarks2)+(+obtMarks3)) +  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + (per1+per2+per3)/3)
+// // document.write("<table>")
+// document.write("<tr>" + "<td>"+ sub1 + "</td>" + "<td>"+ totalMarks + "</td>" 
+// + "<td>"+ obtMarks1 + "</td>" + "<td>"+ per1 + "%</td>" + "</tr>")
+// document.write("<tr>" + "<td>"+ sub2 + "</td>" + "<td>"+ totalMarks + "</td>" 
+// + "<td>"+ obtMarks2 + "</td>" + "<td>"+ per2 + "%</td>" + "</tr>")
+// document.write("<tr>" + "<td>"+ sub3 + "</td>" + "<td>"+ totalMarks + "</td>" 
+// + "<td>"+ obtMarks3 + "</td>" + "<td>"+ per3 + "%</td>" + "</tr>")
+// document.write("<td>" + "</td>" +"<td>&nbsp;&nbsp;&nbsp;&nbsp;"+ totalMarks*3 + "</td>" 
+// + "<td>&nbsp;&nbsp;&nbsp;&nbsp;" + ((+obtMarks1)+(+obtMarks2)+(+obtMarks3)) + "</td>" 
+// + "<td>&nbsp;&nbsp;&nbsp;&nbsp;"+ ((per1+per2+per3)/3) + "%</td>" + "</tr>")
+// document.write("</table>")
 
 
 
@@ -749,9 +742,12 @@
 
         // Task # 15:-
 
-// var phones = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
-// document.write(phones[0] + "<br>" + phones[1] + "<br>" + phones[2] + "<br>" 
-// + phones[3] + "<br>" + phones[4] + "<br>" + phones[5])
+var phones = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
+document.write("<select>")
+document.write("<option>" + phones[0] + "</option>" + "<option>" + phones[1] + "</option>" 
++ "<option>" + phones[2] + "</option>" + "<option>" + phones[3] + "</option>"
++ "<option>" + phones[4] + "</option>" + "<option>" + phones[5] + "</option>")
+document.write("</select>")
 
 
 
